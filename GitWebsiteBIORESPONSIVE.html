@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<!--	Author: Jeremiah Grant
+		Date: 2-8-19
+		File: AboutMe.html
+		Purpose: Module 1 assignment
+-->
+<html>
+<div class="resizable"></div>
+	<head> 
+		<meta charset="utf-8">
+		<title>About Me</title>
+    </head>
+<body>
+<div class="wrapper">
+<style>
+    /* TOP OF PAGE */
+			.header {
+				color: orange;
+			}
+			
+			
+			.smol {
+			
+				color: 	aqua;
+                display: none;
+			}
+            
+			.clicksecret {
+			
+				color: 	rgb(46, 68, 130);
+                opacity: 0.0;
+			}
+			.name {
+			
+				color: 	rgb(0, 255, 0);
+			}
+    /* HUNGER TIME OF DAY IMAGE AREA */
+    
+            #imhungry {
+			
+                display: none;
+            }
+            
+            #foodarea {
+                width: 80px;
+                height: 26px;
+                position: absolute;
+                top: 328px;
+                right: 1200px;
+                opacity: 0.0;
+                background-color: purple;
+}
+
+    /* MIDNIGHT THINGY */
+    
+    
+    .rainbow-happiness {
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: rainbow_animation 1s ease-in-out infinite;
+    background-size: 400% 100%;
+}
+    
+    @keyframes rainbow_animation {
+    0%,100% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 100% 0;
+    }
+}
+    /* MAIN PARAGRAPHS */
+			.experience {
+			
+				color: red;
+			}
+            .experience2 {
+			
+				color: red;
+                display: none;
+			}
+			
+			.learn {
+			
+				color: rgb(212, 233, 0);
+			}
+            .learn2 {
+			
+				color: rgb(212, 233, 0);
+                display: none;
+			}
+			
+			.future {
+			
+				color: rgb(144, 238, 144);
+			}
+    	    .future2 {
+			
+				color: rgb(144, 238, 144);
+                display: none;
+			}
+    /* MIDNIGHT THINGY (Position matters appreantly) */
+    
+    
+    .rainbow-happiness {
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: rainbow_animation 1s ease-in-out infinite;
+    background-size: 400% 100%;
+}
+    
+    @keyframes rainbow_animation {
+    0%,100% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 100% 0;
+    }
+}
+            
+     /* BACKGROUND IMAGE BUTTONS */
+            
+     /* Positioning */
+            .square {
+                background: green;
+                height: 80px;
+                position: absolute;
+                width: 80px;
+                border-radius: 15px;
+                line-height: 60px;
+            }
+             .hersquare {
+                background: green;
+                height: 60px;
+                position: absolute;
+                width: 60px;
+                border-radius: 15px;
+                line-height: 60px;
+            }
+            
+     /* Morning */
+         .sunrise {
+                
+            top: 90px;
+            right: 1020px;
+             width: 40px;
+             height: 40px;
+            opacity: 0.0;
+            }
+         .hernamesunrise {
+                
+            top: 410px;
+            right: 580px;
+            width: 40px;
+            height: 40px;
+            opacity: 0.0;
+            } 
+         .firefly {
+                
+            top: 308px;
+            right: 523px;
+            width: 20px;
+            height: 20px;
+            opacity: 0.0;
+            }   
+         .dawnfact {
+                
+            top: 308px;
+            right: 375px;
+            width: 70px;
+            height: 70px;
+            opacity: 0.0;
+            }   
+        .randomfirefly2 {
+                
+            top: 555px;
+            right: 1008px;
+            width: 20px;
+            height: 20px;
+            opacity: 0.0;
+            }
+        .pervfly {
+                
+            top: 412px;
+            right: 148px;
+            width: 20px;
+            height: 20px;
+            opacity: 0.0;
+            }
+            
+     /* Afternoon */
+            .snack {
+                
+            top: 325px;
+            right: 275px;
+            opacity: 0.0;
+            }
+            .helpme {
+                
+            top: 260px;
+            right: 75px;
+            opacity: 0.0;
+            }
+            .hername {
+                
+            top: 508px;
+            right: 775px;
+            opacity: 0.0;
+            }
+            .loudaf {
+                
+            top: 630px;
+            right: 1015px;
+            width: 40px;
+            height: 40px;
+            opacity: 0.0;
+            }
+ /* Sunset/Evening */
+            .hernamesunset {
+                
+            top: 250px;
+            right: 1000px;
+            opacity: 0.0;
+            }
+            .wingfact {
+                
+            top: 250px;
+            right: 530px;
+            width: 150px;
+            opacity: 0.0;
+            }
+            .sunset {
+                
+            top: 600px;
+            right: 440px;
+            opacity: 0.0;
+            }
+    /* Night */
+            .sunstar {
+                
+            top: 300px;
+            right: 950px;
+            opacity: 0.0;
+            }
+            
+            .bluegiant {
+                
+            top: 90px;
+            right: 600px;
+            opacity: 0.0;
+            }
+            .cosmicdragonfact {
+                
+            top: 375px;
+            right: 600px;
+            opacity: 0.0;
+            }
+            .scorched {
+                
+            top: 685px;
+            right: 335px;
+            width: 130px;
+            height: 70px;
+            opacity: 0.0;
+            }
+            .cosmicdragonname {
+                
+            top: 495px;
+            right: 255px;
+            width: 25px;
+            height: 25px;
+            opacity: 0.0;
+            }
+			
+			body {
+				
+				background-image: url("https://images8.alphacoders.com/599/thumb-1920-599909.jpg");	
+				background-repeat: no-repeat;
+				background-size: cover;
+                z-index: -1;
+                
+                
+                
+            }
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script type="text/javascript">
+//Background change based on time
+$(document).ready(function() {
+    var d = new Date();
+    var n = d.getHours();
+{
+// Night
+      if (n >= 20 && n <= 22 || n <= 6 && n >= 1) 
+        $('body').css("background-image", "url('https://images8.alphacoders.com/599/thumb-1920-599909.jpg')") && $('#helpme').attr('disabled','disabled') && $('#snack').attr('disabled','disabled') && $('#hername').attr('disabled','disabled') && $('#sunset').attr('disabled','disabled') && $('#hernamesunset').attr('disabled','disabled') && $('#wingfact').attr('disabled','disabled') && $('#sunrise').attr('disabled','disabled') && $('#hernamesunrise').attr('disabled','disabled') && $('#dawnfact').attr('disabled','disabled') && $('#firefly').attr('disabled','disabled') && $('#randomfirefly2').attr('disabled','disabled') && $('#pervfly').attr('disabled','disabled') && $('#loudaf').attr('disabled','disabled') && $('#imhungry').attr('src', 'https://leaf.nutrisystem.com/wp-content/uploads/2019/03/7.jpg') && $("#foodarea").mouseenter(function() {
+        alert("Ah, Late Night Food. You clearly don't have time to eat anything. Don't worry, I share your pain. =_= (How long do you think it took me to make this goddamn html site? D:<) Hover back over the wings if you wont want to see the food anymore. (HIGHLY RECCOMENDED IF YOU ARE STARVING!!!)") });
+    
+//Midnight "PEACE AND TRANQUILLTY BY HAT KID" easter egg (This was a BITCH to get working properly!) (Note to self: for professional websites, i should make it to where it only occurs once a month or once a year, so people using my site aren't shut down when trying to use the site at midnight.)
+        else if (n >= 23 || n <= 1) 
+           $('body').css("background-image", "url('https://thumbs.gfycat.com/SlushyDefiniteBasil-max-1mb.gif')") && $('body').css("height", "800px") && $("h1, h2, h3, h6, button, p").addClass("rainbow-happiness") && $('#picturehere').attr('src', 'https://i.ytimg.com/vi/skORqWrnKc8/maxresdefault.jpg') && $('#name').text('ITS HAPPY HOUR!!! THIS SITE HAS BEEN TAKEN OVER BY HAT KID FOR THE NEXT HOUR!!! PREPARE TO EXPERIENCE PEACE AND TRANQUILLITY!!! OR HAPPINESS IF YOU FEEL DOWN!!!') && $('button').text('Click to BOOP!!') && $('#about').text('WELCOME TO THE LEAST DEPRESSING THING YOU HAVE EVER SEEN!') && $('#smol').text('Yes, I do have a little crush on Hat Kid, dont tell anyone tho because that would be weird. But, I mean, her age isnt really confirmed so...ima stop talking now. Please dont call the FBI kthx.') && $('#experience').text('N O O N E I S A R O U N D T O H E L P .') && $('#experience2').text('BOOP! Go do the dance with Hat kid! I Promise you will feel better!!') && $('#learn').text('C O L L E G E I S H A R D C O L L E G E I S S T R E S S F U L .') && $('#learn2').text('BOOP! HAHAHAHA FOOOOOL!!! SIGN MY CONTRACT AND GIVE ME YOUR SOUL!!!') && $('#future').text('I N E E D P E A C E A N D T R A N Q U I L L I T Y N O W ! ! !') && $('#future2').text('BOOP! PECK!!! DARRRRRLINNNNNN!!!! Oh hi there!! CAT CRIME!!!!') && $('#imhungry').attr('src', 'https://66.media.tumblr.com/1a39a4723d584a72bd60f8ae9c95426e/tumblr_inline_p0ymqmal6r1vpk1k4_1280.png') && $('#helpme').attr('disabled','disabled') && $('#snack').attr('disabled','disabled') && $('#hername').attr('disabled','disabled') && $('#sunset').attr('disabled','disabled') && $('#hernamesunset').attr('disabled','disabled') && $('#wingfact').attr('disabled','disabled') && $('#sunrise').attr('disabled','disabled') && $('#hernamesunrise').attr('disabled','disabled') && $('#dawnfact').attr('disabled','disabled') && $('#firefly').attr('disabled','disabled') && $('#randomfirefly2').attr('disabled','disabled') && $('#pervfly').attr('disabled','disabled') && $('#loudaf').attr('disabled','disabled') && $('#scorched').attr('disabled','disabled') && $('#cosmicdragonfact').attr('disabled','disabled') && $('#cosmicdragonname').attr('disabled','disabled') && $("#foodarea").mouseenter(function() {
+            alert("Do you want a cute cat that cooks for you or cake? :)") }); 
+// Evening/sunset
+      else if (n >= 18 && n <= 20)
+        $('body').css("background-image", "url('https://i.ibb.co/tLnWGCM/sunset-dragon-by-rose-of-lynn-d32ix3r-fullview.jpg')") && $('#bluegiant').attr('disabled','disabled') && $('#galaticdragonname').attr('disabled','disabled') && $('#sunstar').attr('disabled','disabled') && $('#helpme').attr('disabled','disabled') && $('#snack').attr('disabled','disabled') && $('#hername').attr('disabled','disabled') && $('#sunrise').attr('disabled','disabled') && $('#hernamesunrise').attr('disabled','disabled') && $('#dawnfact').attr('disabled','disabled') && $('#firefly').attr('disabled','disabled') && $('#randomfirefly2').attr('disabled','disabled') && $('#pervfly').attr('disabled','disabled') && $('#loudaf').attr('disabled','disabled') && $('#scorched').attr('disabled','disabled') && $('#cosmicdragonfact').attr('disabled','disabled') && $('#cosmicdragonname').attr('disabled','disabled') && $('#imhungry').attr('src', 'https://www.tasteofhome.com/wp-content/uploads/2018/01/One-Pot-Dinner_EXPS_OPBZ18_10388_E06_07_2b-696x696.jpg') && $("#foodarea").mouseenter(function() {
+        alert("Ah, Dinner. The third most important meal of the day! (WARNING: Don't look if you are hungry or haven't eaten breakfast/lunch/recently! And if you havent eaten at all, go grab a bite so you don't starve man!!) Hover back over the wings if you wont want to see the food anymore. (HIGHLY RECCOMENDED IF YOU ARE STARVING!!!)") });
+// Afternoon
+      else if (n >= 12  && n <= 17)
+        $('body').css("background-image", "url('https://img5.goodfon.com/wallpaper/nbig/a/1e/brian-valeza-afternoon-snack-dragon-hunting-wyverns-vymyshle.jpg')") && $('#bluegiant').attr('disabled','disabled') && $('#galaticdragonname').attr('disabled','disabled') && $('#sunstar').attr('disabled','disabled') && $('#hernamesunset').attr('disabled','disabled') && $('#sunset').attr('disabled','disabled') && $('#wingfact').attr('disabled','disabled') && $('#sunrise').attr('disabled','disabled') && $('#hernamesunrise').attr('disabled','disabled') && $('#dawnfact').attr('disabled','disabled') && $('#firefly').attr('disabled','disabled') && $('#randomfirefly2').attr('disabled','disabled') && $('#pervfly').attr('disabled','disabled') && $('#scorched').attr('disabled','disabled') && $('#cosmicdragonfact').attr('disabled','disabled') && $('#cosmicdragonname').attr('disabled','disabled') && $('#imhungry').attr('src', 'https://assets3.thrillist.com/v1/image/2654757/size/tmg-article_default_mobile.jpg') &&     $("#foodarea").mouseenter(function() {
+        alert("Ah, Lunch. The second most important meal of the day! (WARNING: Don't look if you are hungry or haven't eaten breakfast!) Hover back over the wings if you wont want to see the food anymore. (HIGHLY RECCOMENDED IF YOU ARE STARVING!!!)")});
+// Morning
+      else
+        $('body').css("background-image", "url('https://i.ibb.co/5FVHfdc/good-morning-hai-ro-by-lailie-dragon-lovard-dag77h3-fullview.jpg')", "background-repeat", "no-repeat", "background-size", "cover") && $('#helpme').attr('disabled','disabled') && $('#snack').attr('disabled','disabled') && $('#hername').attr('disabled','disabled') && $('#sunset').attr('disabled','disabled') && $('#hernamesunset').attr('disabled','disabled') && $('#wingfact').attr('disabled','disabled') && $('#bluegiant').attr('disabled','disabled') && $('#galaticdragonname').attr('disabled','disabled') && $('#sunstar').attr('disabled','disabled') && $('#loudaf').attr('disabled','disabled') && $('#scorched').attr('disabled','disabled') && $('#cosmicdragonfact').attr('disabled','disabled') && $('#cosmicdragonname').attr('disabled','disabled') && $('#imhungry').attr('src', 'https://thesaltymarshmallow.com/wp-content/uploads/2018/08/belgian-waffles1.jpg') &&       $("#foodarea").mouseenter(function() {
+        alert("Ah, Breakfast The most important meal of the day! (WARNING: Don't look if you are hungry or haven't eaten!) Hover back over the wings if you wont want to see the food anymore. (HIGHLY RECCOMENDED IF YOU ARE STARVING!!!)") });
+}
+
+    
+{
+//Buttons 
+    
+//For click to reveal on text paragraphs (less clutter)
+    
+$("#clicksecret").click(function(){
+  $("#smol").toggle();
+});
+$("#clickexperience").click(function(){
+  $("#experience2").toggle();
+});
+$("#clicklearn").click(function(){
+  $("#learn2").toggle();
+});
+$("#clickfuture").click(function(){
+  $("#future2").toggle();
+});
+    
+// For background image easter eggs (SUPPOSED TO ONLY WORK DURING CERTAIN TIMES OF DAY!! TOOK ME A LONG ASS TIME TO GET WORKING THE WAY I WANTED TO!)
+    //Afternoon
+      $('.snack').click(function() {
+        alert("This is a Wyvern. Some dragons such as Lizzele consider them a delicacy. This is Lizzele's afternoon snack and sometimes lunch.");  
+        }); 
+       $('.helpme').click(function() {
+        alert("HELP!! THE DRAGON IS TRYIN TO EAT ME!!!");
+        }); 
+       $('.loudaf').click(function() {
+        alert("STOP SCREAMING AT ME!!! ALSO PLEASE DON'T EAT ME!!! HAVE MERCY!!! ;-;");  
+        }); 
+       $('.hername').click(function() {
+        alert("Her name is 'Lizzele' BTW");  
+        }); 
+    //Sunset/Evening
+       $('.sunset').click(function() {
+        alert("Beautiful sunset isnt it?");  
+        }); 
+       $('.hernamesunset').click(function() {
+        alert("Her name is 'Twilight' BTW");  
+        });
+       $('.wingfact').click(function() {
+        alert("Fun fact: Twilight's wings glow when the sun hits them at a specific angle");  
+        }); 
+    //Night
+       $('.bluegiant').click(function() {
+        alert("This is a blue supergiant. It is VERY hot. But this dragon can take it due to her tough and very resistant scales.");  
+        }); 
+       $('.sunstar').click(function() {
+        alert("This is a regular sun. This particular type of cosmic dragon eats suns as part of her diet, which is mostly planets. Most cosmic dragons prefer planets with moleten cores. A popular favorite are plaets with cores composed mostly of uranium. Some cosmic dragons must be careful about which uranium core planets they consume because a few are allergic to uranium-236 and uranium-238.");  
+        }); 
+        $('.cosmicdragonname').click(function() {
+        alert("Her name is 'Galatica' BTW");  
+        });
+        $('.cosmicdragonfact').click(function() {
+        alert("Cosmic dragons breath fires 50 times hotter than the surface and core of Earth's sun combined. They can control the heat of their flames. It is primarly used to terraform uninhabited planets for their children and any fire/heat based creatures without a home planet, as well as making planets more appealing to eat. They don't 'fly'. Instead they propel themselves through space via unknown means. Most likely manipulating their own gravitational feild.");  
+        });
+        $('.scorched').click(function() {
+        alert("Sometimes, cosmic dragons scorch and burn entire planets to make their textures similar to that of the burning suns before consumption. They also do this to terraform planets for their children and any heat/fire based creatures with no home planet. Because they are compassionate, they only do this to planets completely devoid of life, and avoid inhablited planets. They only consume inhabited planets if they are EXTEMELY desperate or on the verge of death due to starvation.");  
+        });
+    // Morning (I spent way too much time on this lmao)
+       $('.sunrise').click(function() {
+        alert("Ah, the rising sun. Pretty sight to wake up to isnt it?");  
+        }); 
+       $('.hernamesunrise').click(function() {
+        alert("This tired girl's name is 'Dawn' BTW");  
+        }); 
+       $('.dawnfact').click(function() {
+        alert("Fun fact: Whenever this dragon feeds on Fireflies, all of the gold parts of the dragon glow.");  
+        }); 
+       $('.firefly').click(function() {
+        alert("This dragon's diet primarily consists of Fireflies.");  
+        }); 
+       $('.randomfirefly2').click(function() {
+        alert("Oh. I don't do anything special. I'm just here to keep Dawn company. My name would have been Sparx, but since I don't want to get yeeted outta existence by copywright, my offical name is randomfirefly2. However, you can call me Twinklestar. Nice to meet you!");  
+        }); 
+       $('.pervfly').click(function() {
+        alert("No, I was NOT staring up Dawn's tail. I am not a pervert, I SWEAR!!! D:");  
+        });
+    
+    //For image food easter egg (I did this on an empty stomach. -_-)
+    
+        $('#foodarea').mouseenter(function() {
+         $('#imhungry').toggle();
+            
+    //For responsive web page
+            
+            function windowResize() {
+                var winWide = $(window).width();
+                var winHeight = $(window).height();
+  
+                $(".resizable").width(winWide/2).height(winHeight/2);
+    };
+            $(document).ready(function(){
+    windowResize();
+    $( window ).on("resize", windowResize);
+});
+       
+});
+    
+    (function($){
+  var pr = 0, bgWidth = true, bgResize;
+
+  bgResize = function(){
+    var wr = $(window).width() / $(window).height();
+
+    if(wr > pr && !bgWidth) {
+      $('body').css('width', '100%').css('height', '');
+      bgWidth = true;
+    } else if(wr < pr && bgWidth) {
+      $('body').css('height', '100%').css('width', '');
+      bgWidth = false;
+    }
+  };
+
+  $(document).ready(function() {
+    var img = $('body');
+    if(img.height()) {
+      pr = $('body').width() / $('body').height();
+      bgResize();
+    } else {
+      img.load(function(){
+        pr = $('body').width() / $('body').height();
+        bgResize();
+      });
+    }
+
+    $(window).resize(bgResize);
+    prettyPrint();
+  });
+        
+         });
+}
+});
+    
+</script>
+    
+<!–– TOP OF PAGE -->
+<h1 id="about" class="header">About Me</h1>
+<button type="button" id= "clicksecret" class="clicksecret">I wonder...</button> 
+<h6 id="smol" class="night smol">If you havent figured it out by now, I love dragons.</h6>
+<h2 id="name" class="night name">Jeremiah Grant</h2>
+<img id=picturehere src="https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/41301859_2115933558418289_8690299160139661312_n.jpg?_nc_cat=109&_nc_oc=AQlY4AjUnNUvzAE8KSxoSaIobNWdOcz3HyMVGeNcTW_TQeUNHDuhe5lE0xmiplOsFbOmbZ_7qR3Vlc-riBccunaE&_nc_ht=scontent-atl3-1.xx&oh=ac1049e62463b6ae0dfe1c181ec77611&oe=5E3BFA15" alt="Picture of Jeremiah Grant" width="215" height="250">
+<!–– FOOD PIC BASED ON TIME --> 
+<img id="imhungry" src="https://assets3.thrillist.com/v1/image/2654757/size/tmg-article_default_mobile.jpg" alt="Picture of Breakfast/lunch/dinner" width="215" height="250">
+ <!–– BUTTONS FOR BACKGROUND STUFF ––>
+
+<!–– AFTERNOON -->
+<button type="button" id= "snack" class="square snack">Click dis</button>
+<button type="button" id= "helpme" class="square helpme">Click dis</button>
+<button type="button" id= "hername" class="hersquare hername">Click dis</button>
+<button type="button" id= "loudaf" class="square loudaf">Click dis</button>
+<!–– EVENING/SUNSET -->
+<button type="button" id= "sunset" class="square sunset">Click dis</button>
+<button type="button" id= "hernamesunset" class="hersquare hernamesunset">Click dis</button>
+<button type="button" id= "wingfact" class="square wingfact">Click dis</button>
+<!–– NIGHT -->
+<button type="button" id= "sunstar" class="square sunstar">Click dis</button>
+<button type="button" id= "bluegiant" class="square bluegiant">Click dis</button>
+<button type="button" id= "cosmicdragonfact" class="hersquare cosmicdragonfact">Click dis</button>
+<button type="button" id= "scorched" class="square scorched">Click dis</button>
+<button type="button" id= "cosmicdragonname" class="square cosmicdragonname">Click dis</button>
+<!–– MORNING -->
+<button type="button" id= "sunrise" class="square sunrise">Click dis</button>
+<button type="button" id= "hernamesunrise" class="hersquare hernamesunrise">Click dis</button>
+<button type="button" id= "firefly" class="square firefly">Click dis</button>
+<button type="button" id= "dawnfact" class="square dawnfact">Click dis</button>
+<button type="button" id= "randomfirefly2" class="square randomfirefly2">Click dis</button>
+<button type="button" id= "pervfly" class="square pervfly">Click dis</button> 
+    
+<!–– FOR FOOD IMAGE -->
+<div id="foodarea" ></div>
+    
+
+<!–– MAIN PARAGRAPHS -->
+<h3 id="experience" class="experience">My experience with web design and development</h3> 
+<button type="button" id= "clickexperience" class="clickexperience">Click To Expand/Hide</button> 
+<h4><p id= "experience2" class="experience2">I have taken several classes on web design in the past. I have taken java, database management, website design, and HTML classes. I even have a website for a third party currently in development using wordpress.</p></h4> 
+
+<h3 id="learn" class="learn">What I hope to learn from this course</h3>
+<button type="button" id= "clicklearn" class="clicklearn">Click To Expand/Hide</button> 
+<h4><p id="learn2" class="learn2">I want to learn more about the programming aspects of web development. I am hoping this course will help me learn how that goes.</p></h4>
+
+<h3 id="future" class="future">What I would like to do with my new web design and development knowledge in the future</h3>
+<button type="button" id= "clickfuture" class="clickfuture">Click To Expand/Hide</button> 
+<h4><p id="future2" class="future2">Right now, i'm trying to learn more about web development because I am trying to create a forum style website for a server in one of my favorite online FPS games, <i>Team Fortress 2</i></p></h4>
+</div>
+</body>
+</html>
